@@ -1,52 +1,34 @@
 #### Preamble ####
-# Purpose: Simulates a dataset of Australian electoral divisions, including the 
-  #state and party that won each division.
-# Author: Rohan Alexander
-# Date: 26 September 2024
-# Contact: rohan.alexander@utoronto.ca
+# Purpose: Simulates a dataset of pollster predictions of the popular vote, for
+# the upcoming US Election between Kamala Harris and Donald Trump.
+# Author: Daniel Du
+# Date: 15 October 2024
+# Contact: danielc.du@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: The `tidyverse` package must be installed
-# Any other information needed? Make sure you are in the `starter_folder` rproj
-
+# Any other information needed? Make sure you are in the `election_analysis` rproj
 
 #### Workspace setup ####
 library(tidyverse)
-set.seed(853)
+set.seed(424)
 
-
-#### Simulate data ####
-# State names
-states <- c(
-  "New South Wales",
-  "Victoria",
-  "Queensland",
-  "South Australia",
-  "Western Australia",
-  "Tasmania",
-  "Northern Territory",
-  "Australian Capital Territory"
+#### Create data ####
+# Pollster names
+pollsters <- c(
+  "Pollster A",
+  "Pollster B",
+  "Pollster C",
+  "Pollster D",
+  "Pollster E"
 )
 
-# Political parties
-parties <- c("Labor", "Liberal", "Greens", "National", "Other")
-
-# Create a dataset by randomly assigning states and parties to divisions
-analysis_data <- tibble(
-  division = paste("Division", 1:151),  # Add "Division" to make it a character
-  state = sample(
-    states,
-    size = 151,
-    replace = TRUE,
-    prob = c(0.25, 0.25, 0.15, 0.1, 0.1, 0.1, 0.025, 0.025) # Rough state population distribution
-  ),
-  party = sample(
-    parties,
-    size = 151,
-    replace = TRUE,
-    prob = c(0.40, 0.40, 0.05, 0.1, 0.05) # Rough party distribution
-  )
+# Predicted percentages for each candidate
+pollster_data <- tibble(
+  pollster = pollsters,
+  trump_percentage = c(40, 43, 47, 45, 51),  # Predicted popular vote for Trump
+  harris_percentage = c(52, 48, 44, 48, 43), # Predicted popular vote for Harris
+  state = c("National", "Idaho", "Hawaii", "National", "Florida")
 )
-
 
 #### Save data ####
-write_csv(analysis_data, "data/00-simulated_data/simulated_data.csv")
+write_csv(pollster_data, "data/00-simulated_data/simulated_data.csv")
