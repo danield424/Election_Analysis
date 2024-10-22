@@ -1,20 +1,705 @@
-width,length,flying_time
-70,111,1.83
-57,127,2.32
-59,92,2.05
-70,75,1.1
-62,112,2.32
-68,103.5,0.5
-58,108,1.7
-79,114,0.86
-56,186,3.42
-87,68,1.37
-50,118,2.68
-49,186,1.83
-61,116,1.32
-60,127,1
-56,184,2.79
-69,124,1.4
-60,95,1.12
-44,137,1.28
-63,125,1.35
+pollster,numeric_grade,state,candidate_name,party,pct,sample_size,population,methodology,start_date,end_date,hypothetical,partisan,pollscore,transparency_score,voters
+Suffolk,2.9,National,Kamala Harris,DEM,45.3,1000,lv,Live Phone,2024-10-14,2024-10-18,FALSE,NA,-1,8,453
+Suffolk,2.9,National,Donald Trump,REP,44.4,1000,lv,Live Phone,2024-10-14,2024-10-18,FALSE,NA,-1,8,444
+Suffolk,2.9,National,Kamala Harris,DEM,49.7,1000,lv,Live Phone,2024-10-14,2024-10-18,FALSE,NA,-1,8,497
+Suffolk,2.9,National,Donald Trump,REP,48.7,1000,lv,Live Phone,2024-10-14,2024-10-18,FALSE,NA,-1,8,487
+U. North Florida,2.8,Florida,Kamala Harris,DEM,43,977,lv,Live Phone,2024-10-07,2024-10-18,FALSE,NA,-0.6,10,420
+U. North Florida,2.8,Florida,Donald Trump,REP,53,977,lv,Live Phone,2024-10-07,2024-10-18,FALSE,NA,-0.6,10,518
+Emerson,2.9,National,Kamala Harris,DEM,49.5,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-14,2024-10-16,FALSE,NA,-1.1,7,495
+Emerson,2.9,National,Donald Trump,REP,49.2,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-14,2024-10-16,FALSE,NA,-1.1,7,492
+YouGov,3,Arizona,Kamala Harris,DEM,48,1435,lv,Online Panel,2024-10-11,2024-10-16,FALSE,NA,-1.1,9,689
+YouGov,3,Arizona,Donald Trump,REP,51,1435,lv,Online Panel,2024-10-11,2024-10-16,FALSE,NA,-1.1,9,732
+YouGov,3,National,Kamala Harris,DEM,48,1457,rv,Online Panel,2024-10-12,2024-10-15,FALSE,NA,-1.1,9,699
+YouGov,3,National,Donald Trump,REP,45,1457,rv,Online Panel,2024-10-12,2024-10-15,FALSE,NA,-1.1,9,656
+YouGov,3,National,Kamala Harris,DEM,49,1314,lv,Online Panel,2024-10-12,2024-10-15,FALSE,NA,-1.1,9,644
+YouGov,3,National,Donald Trump,REP,45,1314,lv,Online Panel,2024-10-12,2024-10-15,FALSE,NA,-1.1,9,591
+Emerson,2.9,California,Kamala Harris,DEM,61,1000,lv,IVR/Online Panel,2024-10-12,2024-10-14,FALSE,NA,-1.1,7,610
+Emerson,2.9,California,Donald Trump,REP,36.6,1000,lv,IVR/Online Panel,2024-10-12,2024-10-14,FALSE,NA,-1.1,7,366
+Beacon/Shaw,2.8,National,Kamala Harris,DEM,48,1110,rv,Live Phone/Text-to-Web,2024-10-11,2024-10-14,FALSE,NA,-1.1,9,533
+Beacon/Shaw,2.8,National,Donald Trump,REP,50,1110,rv,Live Phone/Text-to-Web,2024-10-11,2024-10-14,FALSE,NA,-1.1,9,555
+Beacon/Shaw,2.8,National,Kamala Harris,DEM,48,870,lv,Live Phone/Text-to-Web,2024-10-11,2024-10-14,FALSE,NA,-1.1,9,418
+Beacon/Shaw,2.8,National,Donald Trump,REP,50,870,lv,Live Phone/Text-to-Web,2024-10-11,2024-10-14,FALSE,NA,-1.1,9,435
+Quinnipiac,2.8,Georgia,Kamala Harris,DEM,45,1328,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,598
+Quinnipiac,2.8,Georgia,Donald Trump,REP,52,1328,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,691
+Quinnipiac,2.8,Georgia,Kamala Harris,DEM,46,1328,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,611
+Quinnipiac,2.8,Georgia,Donald Trump,REP,52,1328,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,691
+Quinnipiac,2.8,North Carolina,Kamala Harris,DEM,49,1031,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,505
+Quinnipiac,2.8,North Carolina,Donald Trump,REP,47,1031,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,485
+Quinnipiac,2.8,North Carolina,Kamala Harris,DEM,50,1031,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,516
+Quinnipiac,2.8,North Carolina,Donald Trump,REP,47,1031,lv,Live Phone,2024-10-10,2024-10-14,FALSE,NA,-0.5,9,485
+SurveyUSA,2.8,Washington,Kamala Harris,DEM,57,703,lv,Online Panel,2024-10-09,2024-10-14,FALSE,NA,-1.3,8,401
+SurveyUSA,2.8,Washington,Donald Trump,REP,35,703,lv,Online Panel,2024-10-09,2024-10-14,FALSE,NA,-1.3,8,246
+Ipsos,2.8,National,Kamala Harris,DEM,45,807,rv,Probability Panel,2024-10-11,2024-10-13,FALSE,NA,-0.9,9.5,363
+Ipsos,2.8,National,Donald Trump,REP,42,807,rv,Probability Panel,2024-10-11,2024-10-13,FALSE,NA,-0.9,9.5,339
+Ipsos,2.8,National,Kamala Harris,DEM,47,769,lv,Probability Panel,2024-10-11,2024-10-13,FALSE,NA,-0.9,9.5,361
+Ipsos,2.8,National,Donald Trump,REP,44,769,lv,Probability Panel,2024-10-11,2024-10-13,FALSE,NA,-0.9,9.5,338
+Ipsos,2.8,National,Kamala Harris,DEM,41,938,a,Probability Panel,2024-10-11,2024-10-13,FALSE,NA,-0.9,9.5,385
+Ipsos,2.8,National,Donald Trump,REP,37,938,a,Probability Panel,2024-10-11,2024-10-13,FALSE,NA,-0.9,9.5,347
+YouGov,3,National,Kamala Harris,DEM,51,2712,lv,Online Panel,2024-10-08,2024-10-11,FALSE,NA,-1.1,9,1383
+YouGov,3,National,Donald Trump,REP,48,2712,lv,Online Panel,2024-10-08,2024-10-11,FALSE,NA,-1.1,9,1302
+Marist,2.9,National,Kamala Harris,DEM,52,1401,lv,Online Panel/Text-to-Web,2024-10-08,2024-10-10,FALSE,NA,-0.9,9,729
+Marist,2.9,National,Donald Trump,REP,47,1401,lv,Online Panel/Text-to-Web,2024-10-08,2024-10-10,FALSE,NA,-0.9,9,658
+Marist,2.9,National,Kamala Harris,DEM,51,1708,rv,Online Panel/Text-to-Web,2024-10-08,2024-10-10,FALSE,NA,-0.9,9,871
+Marist,2.9,National,Donald Trump,REP,48,1708,rv,Online Panel/Text-to-Web,2024-10-08,2024-10-10,FALSE,NA,-0.9,9,820
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,857,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,428
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,47,857,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,403
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,857,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,420
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,45,857,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,386
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,857,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,428
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,47,857,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,403
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,857,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,420
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,45,857,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,386
+Siena/NYT,3,Arizona,Kamala Harris,DEM,46,808,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,372
+Siena/NYT,3,Arizona,Donald Trump,REP,51,808,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,412
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,808,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,364
+Siena/NYT,3,Arizona,Donald Trump,REP,50,808,lv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,404
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,808,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,364
+Siena/NYT,3,Arizona,Donald Trump,REP,51,808,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,412
+Siena/NYT,3,Arizona,Kamala Harris,DEM,44,808,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,356
+Siena/NYT,3,Arizona,Donald Trump,REP,49,808,rv,Live Phone,2024-10-07,2024-10-10,FALSE,NA,-1.5,9,396
+U of Massachusetts Lowell,2.9,New Hampshire,Kamala Harris,DEM,50,600,lv,Online Panel,2024-10-02,2024-10-10,FALSE,NA,-1,9,300
+U of Massachusetts Lowell,2.9,New Hampshire,Donald Trump,REP,41,600,lv,Online Panel,2024-10-02,2024-10-10,FALSE,NA,-1,9,246
+YouGov,3,Texas,Kamala Harris,DEM,46,1091,lv,Online Panel,2024-10-02,2024-10-10,FALSE,NA,-1.1,9,502
+YouGov,3,Texas,Donald Trump,REP,51,1091,lv,Online Panel,2024-10-02,2024-10-10,FALSE,NA,-1.1,9,556
+Marquette Law School,3,National,Kamala Harris,DEM,50,780,rv,Probability Panel,2024-10-01,2024-10-10,FALSE,NA,-1.1,10,390
+Marquette Law School,3,National,Donald Trump,REP,50,780,rv,Probability Panel,2024-10-01,2024-10-10,FALSE,NA,-1.1,10,390
+Marquette Law School,3,National,Kamala Harris,DEM,50,652,lv,Probability Panel,2024-10-01,2024-10-10,FALSE,NA,-1.1,10,326
+Marquette Law School,3,National,Donald Trump,REP,50,652,lv,Probability Panel,2024-10-01,2024-10-10,FALSE,NA,-1.1,10,326
+U of Massachusetts Lowell,2.9,Pennsylvania,Kamala Harris,DEM,46,800,lv,Online Panel,2024-10-02,2024-10-09,FALSE,NA,-1,9,368
+U of Massachusetts Lowell,2.9,Pennsylvania,Donald Trump,REP,45,800,lv,Online Panel,2024-10-02,2024-10-09,FALSE,NA,-1,9,360
+Emerson,2.9,Arizona,Kamala Harris,DEM,48.2,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,482
+Emerson,2.9,Arizona,Donald Trump,REP,50.5,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,505
+Emerson,2.9,Georgia,Kamala Harris,DEM,49.8,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,498
+Emerson,2.9,Georgia,Donald Trump,REP,49.7,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,497
+Emerson,2.9,Michigan,Kamala Harris,DEM,49.7,950,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,472
+Emerson,2.9,Michigan,Donald Trump,REP,49.6,950,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,471
+Emerson,2.9,Nevada,Kamala Harris,DEM,49.2,900,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,443
+Emerson,2.9,Nevada,Donald Trump,REP,48.1,900,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,433
+Emerson,2.9,North Carolina,Kamala Harris,DEM,49,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,490
+Emerson,2.9,North Carolina,Donald Trump,REP,49.9,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,499
+Emerson,2.9,Pennsylvania,Kamala Harris,DEM,49,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,490
+Emerson,2.9,Pennsylvania,Donald Trump,REP,49.7,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,497
+Emerson,2.9,Wisconsin,Kamala Harris,DEM,49.2,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,492
+Emerson,2.9,Wisconsin,Donald Trump,REP,49.9,1000,lv,IVR/Online Panel/Text-to-Web,2024-10-05,2024-10-08,FALSE,NA,-1.1,7,499
+Siena/NYT,3,Montana,Kamala Harris,DEM,39,656,rv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,256
+Siena/NYT,3,Montana,Donald Trump,REP,57,656,rv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,374
+Siena/NYT,3,Montana,Kamala Harris,DEM,38,656,rv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,249
+Siena/NYT,3,Montana,Donald Trump,REP,56,656,rv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,367
+Siena/NYT,3,Montana,Kamala Harris,DEM,40,656,lv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,262
+Siena/NYT,3,Montana,Donald Trump,REP,57,656,lv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,374
+Siena/NYT,3,Montana,Kamala Harris,DEM,39,656,lv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,256
+Siena/NYT,3,Montana,Donald Trump,REP,56,656,lv,Live Phone,2024-10-05,2024-10-08,FALSE,NA,-1.5,9,367
+Ipsos,2.8,National,Kamala Harris,DEM,49,2631,a,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1289
+Ipsos,2.8,National,Donald Trump,REP,48,2631,a,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1263
+Ipsos,2.8,National,Kamala Harris,DEM,49,2226,rv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1091
+Ipsos,2.8,National,Donald Trump,REP,47,2226,rv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1046
+Ipsos,2.8,National,Kamala Harris,DEM,50,1714,lv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,857
+Ipsos,2.8,National,Donald Trump,REP,48,1714,lv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,823
+Ipsos,2.8,National,Kamala Harris,DEM,50,2631,a,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1316
+Ipsos,2.8,National,Donald Trump,REP,49,2631,a,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1289
+Ipsos,2.8,National,Kamala Harris,DEM,50,2226,rv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1113
+Ipsos,2.8,National,Donald Trump,REP,49,2226,rv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,1091
+Ipsos,2.8,National,Kamala Harris,DEM,51,1714,lv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,874
+Ipsos,2.8,National,Donald Trump,REP,48,1714,lv,Probability Panel,2024-10-04,2024-10-08,FALSE,NA,-0.9,9.5,823
+YouGov,3,National,Kamala Harris,DEM,47,1414,rv,Online Panel,2024-10-06,2024-10-07,FALSE,NA,-1.1,9,665
+YouGov,3,National,Donald Trump,REP,44,1414,rv,Online Panel,2024-10-06,2024-10-07,FALSE,NA,-1.1,9,622
+YouGov,3,National,Kamala Harris,DEM,49,1230,lv,Online Panel,2024-10-06,2024-10-07,FALSE,NA,-1.1,9,603
+YouGov,3,National,Donald Trump,REP,45,1230,lv,Online Panel,2024-10-06,2024-10-07,FALSE,NA,-1.1,9,554
+Ipsos,2.8,National,Kamala Harris,DEM,42,1272,a,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,534
+Ipsos,2.8,National,Donald Trump,REP,38,1272,a,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,483
+Ipsos,2.8,National,Kamala Harris,DEM,46,1076,rv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,495
+Ipsos,2.8,National,Donald Trump,REP,43,1076,rv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,463
+Ipsos,2.8,National,Kamala Harris,DEM,47,1076,lv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,506
+Ipsos,2.8,National,Donald Trump,REP,45,1076,lv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,484
+Ipsos,2.8,National,Kamala Harris,DEM,48,1272,a,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,611
+Ipsos,2.8,National,Donald Trump,REP,47,1272,a,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,598
+Ipsos,2.8,National,Kamala Harris,DEM,50,1076,rv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,538
+Ipsos,2.8,National,Donald Trump,REP,48,1076,rv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,516
+Ipsos,2.8,National,Kamala Harris,DEM,51,1076,lv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,549
+Ipsos,2.8,National,Donald Trump,REP,49,1076,lv,Probability Panel,2024-10-04,2024-10-07,FALSE,NA,-0.9,9.5,527
+Quinnipiac,2.8,Michigan,Kamala Harris,DEM,47,1007,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,473
+Quinnipiac,2.8,Michigan,Donald Trump,REP,50,1007,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,504
+Quinnipiac,2.8,Michigan,Kamala Harris,DEM,47,1007,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,473
+Quinnipiac,2.8,Michigan,Donald Trump,REP,51,1007,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,514
+Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,49,1412,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,692
+Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,46,1412,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,650
+Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,49,1412,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,692
+Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,47,1412,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,664
+Quinnipiac,2.8,Wisconsin,Kamala Harris,DEM,46,1073,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,494
+Quinnipiac,2.8,Wisconsin,Donald Trump,REP,48,1073,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,515
+Quinnipiac,2.8,Wisconsin,Kamala Harris,DEM,47,1073,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,504
+Quinnipiac,2.8,Wisconsin,Donald Trump,REP,49,1073,lv,Live Phone,2024-10-03,2024-10-07,FALSE,NA,-0.5,9,526
+Marist,2.9,Florida,Kamala Harris,DEM,47,1257,lv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,591
+Marist,2.9,Florida,Donald Trump,REP,51,1257,lv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,641
+Marist,2.9,Florida,Kamala Harris,DEM,47,1410,rv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,663
+Marist,2.9,Florida,Donald Trump,REP,51,1410,rv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,719
+Marist,2.9,Texas,Kamala Harris,DEM,46,1365,rv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,628
+Marist,2.9,Texas,Donald Trump,REP,52,1365,rv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,710
+Marist,2.9,Texas,Kamala Harris,DEM,46,1186,lv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,546
+Marist,2.9,Texas,Donald Trump,REP,53,1186,lv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,629
+Marist,2.9,Ohio,Kamala Harris,DEM,46,1511,rv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,695
+Marist,2.9,Ohio,Donald Trump,REP,52,1511,rv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,786
+Marist,2.9,Ohio,Kamala Harris,DEM,46,1327,lv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,610
+Marist,2.9,Ohio,Donald Trump,REP,52,1327,lv,Live Phone/Online Panel/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-0.9,9,690
+The Washington Post,3,Ohio,Kamala Harris,DEM,45,1002,lv,Live Phone/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-1.2,9,451
+The Washington Post,3,Ohio,Donald Trump,REP,51,1002,lv,Live Phone/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-1.2,9,511
+The Washington Post,3,Ohio,Kamala Harris,DEM,44,1002,rv,Live Phone/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-1.2,9,441
+The Washington Post,3,Ohio,Donald Trump,REP,51,1002,rv,Live Phone/Text-to-Web,2024-10-03,2024-10-07,FALSE,NA,-1.2,9,511
+Siena/NYT,3,National,Kamala Harris,DEM,49,3385,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,1659
+Siena/NYT,3,National,Donald Trump,REP,46,3385,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,1557
+Siena/NYT,3,National,Kamala Harris,DEM,47,3385,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,1591
+Siena/NYT,3,National,Donald Trump,REP,44,3385,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,1489
+Siena/NYT,3,Florida,Kamala Harris,DEM,41,622,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,255
+Siena/NYT,3,Florida,Donald Trump,REP,55,622,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,342
+Siena/NYT,3,Florida,Kamala Harris,DEM,40,622,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,249
+Siena/NYT,3,Florida,Donald Trump,REP,53,622,lv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,330
+Siena/NYT,3,Florida,Kamala Harris,DEM,41,622,rv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,255
+Siena/NYT,3,Florida,Donald Trump,REP,54,622,rv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,336
+Siena/NYT,3,Florida,Kamala Harris,DEM,40,622,rv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,249
+Siena/NYT,3,Florida,Donald Trump,REP,53,622,rv,Live Phone,2024-09-29,2024-10-06,FALSE,NA,-1.5,9,330
+Suffolk,2.9,Massachusetts,Kamala Harris,DEM,61.2,500,lv,Live Phone,2024-10-01,2024-10-05,FALSE,NA,-1,8,306
+Suffolk,2.9,Massachusetts,Donald Trump,REP,32.2,500,lv,Live Phone,2024-10-01,2024-10-05,FALSE,NA,-1,8,161
+YouGov,3,National,Kamala Harris,DEM,46,1150,rv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,529
+YouGov,3,National,Donald Trump,REP,45,1150,rv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,518
+YouGov,3,National,Kamala Harris,DEM,47,1032,lv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,485
+YouGov,3,National,Donald Trump,REP,47,1032,lv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,485
+YouGov,3,National,Kamala Harris,DEM,48,1151,rv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,552
+YouGov,3,National,Donald Trump,REP,46,1151,rv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,529
+YouGov,3,National,Kamala Harris,DEM,48,1033,lv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,496
+YouGov,3,National,Donald Trump,REP,47,1033,lv,Online Panel,2024-10-02,2024-10-04,FALSE,NA,-1.1,9,486
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,lv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,271
+Siena/NYT,3,Texas,Donald Trump,REP,50,617,lv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,308
+Siena/NYT,3,Texas,Kamala Harris,DEM,42,617,lv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,259
+Siena/NYT,3,Texas,Donald Trump,REP,49,617,lv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,302
+Siena/NYT,3,Texas,Kamala Harris,DEM,44,617,rv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,271
+Siena/NYT,3,Texas,Donald Trump,REP,50,617,rv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,308
+Siena/NYT,3,Texas,Kamala Harris,DEM,41,617,rv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,253
+Siena/NYT,3,Texas,Donald Trump,REP,48,617,rv,Live Phone,2024-09-29,2024-10-04,FALSE,NA,-1.5,9,296
+Christopher Newport U.,2.8,Virginia,Kamala Harris,DEM,52,800,lv,Live Phone,2024-09-28,2024-10-04,FALSE,NA,-0.6,9,416
+Christopher Newport U.,2.8,Virginia,Donald Trump,REP,41,800,lv,Live Phone,2024-09-28,2024-10-04,FALSE,NA,-0.6,9,328
+YouGov,3,Pennsylvania,Kamala Harris,DEM,46.8,1000,rv,Online Panel,2024-09-24,2024-10-02,FALSE,NA,-1.1,4.5,468
+YouGov,3,Pennsylvania,Donald Trump,REP,44.7,1000,rv,Online Panel,2024-09-24,2024-10-02,FALSE,NA,-1.1,4.5,447
+YouGov,3,National,Kamala Harris,DEM,48,1463,rv,Online Panel,2024-09-29,2024-10-01,FALSE,NA,-1.1,9,702
+YouGov,3,National,Donald Trump,REP,45,1463,rv,Online Panel,2024-09-29,2024-10-01,FALSE,NA,-1.1,9,658
+YouGov,3,National,Kamala Harris,DEM,49,1261,lv,Online Panel,2024-09-29,2024-10-01,FALSE,NA,-1.1,9,618
+YouGov,3,National,Donald Trump,REP,46,1261,lv,Online Panel,2024-09-29,2024-10-01,FALSE,NA,-1.1,9,580
+Emerson,2.9,National,Kamala Harris,DEM,50.2,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-29,2024-10-01,FALSE,NA,-1.1,7,502
+Emerson,2.9,National,Donald Trump,REP,48.6,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-29,2024-10-01,FALSE,NA,-1.1,7,486
+Marist,2.9,National,Kamala Harris,DEM,50,1294,lv,Live Phone/Online Panel/Text-to-Web,2024-09-27,2024-10-01,FALSE,NA,-0.9,9,647
+Marist,2.9,National,Donald Trump,REP,48,1294,lv,Live Phone/Online Panel/Text-to-Web,2024-09-27,2024-10-01,FALSE,NA,-0.9,9,621
+Marist,2.9,National,Kamala Harris,DEM,50,1514,rv,Live Phone/Online Panel/Text-to-Web,2024-09-27,2024-10-01,FALSE,NA,-0.9,9,757
+Marist,2.9,National,Donald Trump,REP,47,1514,rv,Live Phone/Online Panel/Text-to-Web,2024-09-27,2024-10-01,FALSE,NA,-0.9,9,712
+The Washington Post,3,North Carolina,Kamala Harris,DEM,48,1001,lv,Live Phone/Text-to-Web,2024-09-25,2024-09-29,FALSE,NA,-1.2,9,480
+The Washington Post,3,North Carolina,Donald Trump,REP,50,1001,lv,Live Phone/Text-to-Web,2024-09-25,2024-09-29,FALSE,NA,-1.2,9,500
+The Washington Post,3,North Carolina,Kamala Harris,DEM,47,1001,rv,Live Phone/Text-to-Web,2024-09-25,2024-09-29,FALSE,NA,-1.2,9,470
+The Washington Post,3,North Carolina,Donald Trump,REP,50,1001,rv,Live Phone/Text-to-Web,2024-09-25,2024-09-29,FALSE,NA,-1.2,9,500
+Quinnipiac,2.8,North Carolina,Kamala Harris,DEM,47,953,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,448
+Quinnipiac,2.8,North Carolina,Donald Trump,REP,49,953,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,467
+Quinnipiac,2.8,North Carolina,Kamala Harris,DEM,48,953,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,457
+Quinnipiac,2.8,North Carolina,Donald Trump,REP,49,953,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,467
+Quinnipiac,2.8,Georgia,Kamala Harris,DEM,44,942,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,414
+Quinnipiac,2.8,Georgia,Donald Trump,REP,50,942,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,471
+Quinnipiac,2.8,Georgia,Kamala Harris,DEM,45,942,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,424
+Quinnipiac,2.8,Georgia,Donald Trump,REP,50,942,lv,Live Phone,2024-09-25,2024-09-29,FALSE,NA,-0.5,9,471
+Emerson,2.9,Arizona,Kamala Harris,DEM,47.6,920,lv,Online Panel/Text-to-Web,2024-09-27,2024-09-28,FALSE,NA,-1.1,7,438
+Emerson,2.9,Arizona,Donald Trump,REP,51.7,920,lv,Online Panel/Text-to-Web,2024-09-27,2024-09-28,FALSE,NA,-1.1,7,476
+Emerson,2.9,North Carolina,Kamala Harris,DEM,49.1,850,lv,Online Panel/Text-to-Web,2024-09-27,2024-09-28,FALSE,NA,-1.1,7,417
+Emerson,2.9,North Carolina,Donald Trump,REP,49.9,850,lv,Online Panel/Text-to-Web,2024-09-27,2024-09-28,FALSE,NA,-1.1,7,424
+Emerson,2.9,Pennsylvania,Kamala Harris,DEM,49.3,1000,lv,Online Panel/Text-to-Web,2024-09-27,2024-09-28,FALSE,NA,-1.1,7,493
+Emerson,2.9,Pennsylvania,Donald Trump,REP,48.8,1000,lv,Online Panel/Text-to-Web,2024-09-27,2024-09-28,FALSE,NA,-1.1,7,488
+YouGov,3,National,Kamala Harris,DEM,48,848,lv,Online Panel,2024-09-23,2024-09-27,FALSE,NA,-1.1,6.5,407
+YouGov,3,National,Donald Trump,REP,45,848,lv,Online Panel,2024-09-23,2024-09-27,FALSE,NA,-1.1,6.5,382
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,51,680,rv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,347
+Siena/NYT,3,Nebraska,Donald Trump,REP,42,680,rv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,286
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,49,680,rv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,333
+Siena/NYT,3,Nebraska,Donald Trump,REP,41,680,rv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,279
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,52,680,lv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,354
+Siena/NYT,3,Nebraska,Donald Trump,REP,43,680,lv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,292
+Siena/NYT,3,Nebraska,Kamala Harris,DEM,51,680,lv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,347
+Siena/NYT,3,Nebraska,Donald Trump,REP,42,680,lv,Live Phone,2024-09-24,2024-09-26,FALSE,NA,-1.5,9,286
+SurveyUSA,2.8,Minnesota,Kamala Harris,DEM,50,646,lv,Online Panel,2024-09-23,2024-09-26,FALSE,NA,-1.3,8,323
+SurveyUSA,2.8,Minnesota,Donald Trump,REP,44,646,lv,Online Panel,2024-09-23,2024-09-26,FALSE,NA,-1.3,8,284
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,688,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,310
+Siena/NYT,3,Michigan,Donald Trump,REP,47,688,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,323
+Siena/NYT,3,Michigan,Kamala Harris,DEM,43,688,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,296
+Siena/NYT,3,Michigan,Donald Trump,REP,46,688,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,316
+Siena/NYT,3,Michigan,Kamala Harris,DEM,48,688,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,330
+Siena/NYT,3,Michigan,Donald Trump,REP,47,688,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,323
+Siena/NYT,3,Michigan,Kamala Harris,DEM,46,688,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,316
+Siena/NYT,3,Michigan,Donald Trump,REP,46,688,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,316
+Siena/NYT,3,Ohio,Kamala Harris,DEM,45,687,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,309
+Siena/NYT,3,Ohio,Donald Trump,REP,49,687,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,337
+Siena/NYT,3,Ohio,Kamala Harris,DEM,44,687,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,302
+Siena/NYT,3,Ohio,Donald Trump,REP,47,687,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,323
+Siena/NYT,3,Ohio,Kamala Harris,DEM,44,687,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,302
+Siena/NYT,3,Ohio,Donald Trump,REP,50,687,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,344
+Siena/NYT,3,Ohio,Kamala Harris,DEM,43,687,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,295
+Siena/NYT,3,Ohio,Donald Trump,REP,49,687,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,337
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,680,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,333
+Siena/NYT,3,Wisconsin,Donald Trump,REP,47,680,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,320
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,680,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,326
+Siena/NYT,3,Wisconsin,Donald Trump,REP,45,680,rv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,306
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,49,680,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,333
+Siena/NYT,3,Wisconsin,Donald Trump,REP,47,680,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,320
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,48,680,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,326
+Siena/NYT,3,Wisconsin,Donald Trump,REP,46,680,lv,Live Phone,2024-09-21,2024-09-26,FALSE,NA,-1.5,9,313
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,882,rv,Probability Panel,2024-09-18,2024-09-26,FALSE,NA,-1.1,10,459
+Marquette Law School,3,Wisconsin,Donald Trump,REP,48,882,rv,Probability Panel,2024-09-18,2024-09-26,FALSE,NA,-1.1,10,423
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,798,lv,Probability Panel,2024-09-18,2024-09-26,FALSE,NA,-1.1,10,415
+Marquette Law School,3,Wisconsin,Donald Trump,REP,48,798,lv,Probability Panel,2024-09-18,2024-09-26,FALSE,NA,-1.1,10,383
+Emerson,2.9,New York,Kamala Harris,DEM,55.5,1000,lv,Online Panel/Text-to-Web,2024-09-23,2024-09-25,FALSE,NA,-1.1,7,555
+Emerson,2.9,New York,Donald Trump,REP,41.6,1000,lv,Online Panel/Text-to-Web,2024-09-23,2024-09-25,FALSE,NA,-1.1,7,416
+CNN/SSRS,2.8,North Carolina,Kamala Harris,DEM,48,931,lv,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,2024-09-20,2024-09-25,FALSE,NA,-0.6,10,447
+CNN/SSRS,2.8,North Carolina,Donald Trump,REP,48,931,lv,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,2024-09-20,2024-09-25,FALSE,NA,-0.6,10,447
+CNN/SSRS,2.8,Nebraska,Kamala Harris,DEM,53,749,lv,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,2024-09-20,2024-09-25,FALSE,NA,-0.6,10,397
+CNN/SSRS,2.8,Nebraska,Donald Trump,REP,42,749,lv,Live Phone/Text-to-Web/Email/Mail-to-Web/Mail-to-Phone,2024-09-20,2024-09-25,FALSE,NA,-0.6,10,315
+Emerson,2.9,Texas,Kamala Harris,DEM,46.7,950,lv,Online Panel/Text-to-Web,2024-09-22,2024-09-24,FALSE,NA,-1.1,7,444
+Emerson,2.9,Texas,Donald Trump,REP,52.3,950,lv,Online Panel/Text-to-Web,2024-09-22,2024-09-24,FALSE,NA,-1.1,7,497
+Emerson,2.9,Virginia,Kamala Harris,DEM,52.7,860,lv,Online Panel/Text-to-Web,2024-09-22,2024-09-24,FALSE,NA,-1.1,7,453
+Emerson,2.9,Virginia,Donald Trump,REP,46.2,860,lv,Online Panel/Text-to-Web,2024-09-22,2024-09-24,FALSE,NA,-1.1,7,397
+YouGov,3,National,Kamala Harris,DEM,47,1424,rv,Online Panel,2024-09-21,2024-09-24,FALSE,NA,-1.1,9,669
+YouGov,3,National,Donald Trump,REP,44,1424,rv,Online Panel,2024-09-21,2024-09-24,FALSE,NA,-1.1,9,627
+YouGov,3,National,Kamala Harris,DEM,49,1220,lv,Online Panel,2024-09-21,2024-09-24,FALSE,NA,-1.1,9,598
+YouGov,3,National,Donald Trump,REP,46,1220,lv,Online Panel,2024-09-21,2024-09-24,FALSE,NA,-1.1,9,561
+YouGov,3,Georgia,Kamala Harris,DEM,49,1441,lv,Online Panel,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,706
+YouGov,3,Georgia,Donald Trump,REP,51,1441,lv,Online Panel,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,735
+Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,47,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,480
+Beacon/Shaw,2.8,Arizona,Donald Trump,REP,49,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,500
+Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,47,764,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,359
+Beacon/Shaw,2.8,Arizona,Donald Trump,REP,50,764,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,382
+Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,48,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,490
+Beacon/Shaw,2.8,Arizona,Donald Trump,REP,50,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,510
+Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,48,764,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,367
+Beacon/Shaw,2.8,Arizona,Donald Trump,REP,51,764,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,390
+Beacon/Shaw,2.8,Georgia,Kamala Harris,DEM,49,1006,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,493
+Beacon/Shaw,2.8,Georgia,Donald Trump,REP,47,1006,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,473
+Beacon/Shaw,2.8,Georgia,Kamala Harris,DEM,50,707,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,354
+Beacon/Shaw,2.8,Georgia,Donald Trump,REP,48,707,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,339
+Beacon/Shaw,2.8,Georgia,Kamala Harris,DEM,51,1006,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,513
+Beacon/Shaw,2.8,Georgia,Donald Trump,REP,48,1006,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,483
+Beacon/Shaw,2.8,Georgia,Kamala Harris,DEM,51,707,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,361
+Beacon/Shaw,2.8,Georgia,Donald Trump,REP,48,707,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,339
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,47,787,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,370
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,49,787,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,386
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,48,991,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,476
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,47,991,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,466
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,49,787,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,386
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,50,787,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,394
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,50,991,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,496
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,48,991,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,476
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,47,775,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,364
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,48,775,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,372
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,48,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,490
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,46,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,470
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,49,775,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,380
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,49,775,lv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,380
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,50,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,510
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,48,1021,rv,Live Phone/Text-to-Web,2024-09-20,2024-09-24,FALSE,NA,-1.1,9,490
+Marist,2.9,Arizona,Kamala Harris,DEM,48,1416,rv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,680
+Marist,2.9,Arizona,Donald Trump,REP,50,1416,rv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,708
+Marist,2.9,Arizona,Kamala Harris,DEM,49,1264,lv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,619
+Marist,2.9,Arizona,Donald Trump,REP,50,1264,lv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,632
+Marist,2.9,North Carolina,Kamala Harris,DEM,49,1507,rv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,738
+Marist,2.9,North Carolina,Donald Trump,REP,48,1507,rv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,723
+Marist,2.9,North Carolina,Kamala Harris,DEM,49,1348,lv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,661
+Marist,2.9,North Carolina,Donald Trump,REP,49,1348,lv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,661
+Marist,2.9,Georgia,Kamala Harris,DEM,49,1420,rv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,696
+Marist,2.9,Georgia,Donald Trump,REP,48,1420,rv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,682
+Marist,2.9,Georgia,Kamala Harris,DEM,49,1220,lv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,598
+Marist,2.9,Georgia,Donald Trump,REP,50,1220,lv,Live Phone/Online Panel/Text-to-Web,2024-09-19,2024-09-24,FALSE,NA,-0.9,9,610
+Suffolk,2.9,Arizona,Kamala Harris,DEM,42.4,500,lv,Live Phone,2024-09-19,2024-09-24,FALSE,NA,-1,8,212
+Suffolk,2.9,Arizona,Donald Trump,REP,48.4,500,lv,Live Phone,2024-09-19,2024-09-24,FALSE,NA,-1,8,242
+Ipsos,2.8,National,Kamala Harris,DEM,46.61,871,rv,Probability Panel,2024-09-20,2024-09-22,FALSE,NA,-0.9,9.5,406
+Ipsos,2.8,National,Donald Trump,REP,40.48,871,rv,Probability Panel,2024-09-20,2024-09-22,FALSE,NA,-0.9,9.5,353
+Ipsos,2.8,National,Kamala Harris,DEM,50,785,lv,Probability Panel,2024-09-20,2024-09-22,FALSE,NA,-0.9,9.5,392
+Ipsos,2.8,National,Donald Trump,REP,44,785,lv,Probability Panel,2024-09-20,2024-09-22,FALSE,NA,-0.9,9.5,345
+Ipsos,2.8,National,Kamala Harris,DEM,42,1029,a,Probability Panel,2024-09-20,2024-09-22,FALSE,NA,-0.9,9.5,432
+Ipsos,2.8,National,Donald Trump,REP,38,1029,a,Probability Panel,2024-09-20,2024-09-22,FALSE,NA,-0.9,9.5,391
+CNN/SSRS,2.8,National,Kamala Harris,DEM,48,2074,lv,Probability Panel,2024-09-19,2024-09-22,FALSE,NA,-0.6,10,996
+CNN/SSRS,2.8,National,Donald Trump,REP,47,2074,lv,Probability Panel,2024-09-19,2024-09-22,FALSE,NA,-0.6,10,975
+CNN/SSRS,2.8,National,Kamala Harris,DEM,47,2074,rv,Probability Panel,2024-09-19,2024-09-22,FALSE,NA,-0.6,10,975
+CNN/SSRS,2.8,National,Donald Trump,REP,47,2074,rv,Probability Panel,2024-09-19,2024-09-22,FALSE,NA,-0.6,10,975
+Quinnipiac,2.8,National,Kamala Harris,DEM,47,1728,lv,Live Phone,2024-09-19,2024-09-22,FALSE,NA,-0.5,9,812
+Quinnipiac,2.8,National,Donald Trump,REP,48,1728,lv,Live Phone,2024-09-19,2024-09-22,FALSE,NA,-0.5,9,829
+Quinnipiac,2.8,National,Kamala Harris,DEM,48,1728,lv,Live Phone,2024-09-19,2024-09-22,FALSE,NA,-0.5,9,829
+Quinnipiac,2.8,National,Donald Trump,REP,48,1728,lv,Live Phone,2024-09-19,2024-09-22,FALSE,NA,-0.5,9,829
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,713,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,321
+Siena/NYT,3,Arizona,Donald Trump,REP,49,713,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,349
+Siena/NYT,3,Arizona,Kamala Harris,DEM,45,713,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,321
+Siena/NYT,3,Arizona,Donald Trump,REP,50,713,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,356
+Siena/NYT,3,Arizona,Kamala Harris,DEM,42,713,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,299
+Siena/NYT,3,Arizona,Donald Trump,REP,47,713,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,335
+Siena/NYT,3,Arizona,Kamala Harris,DEM,43,713,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,307
+Siena/NYT,3,Arizona,Donald Trump,REP,48,713,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,342
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,300
+Siena/NYT,3,Georgia,Donald Trump,REP,48,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,327
+Siena/NYT,3,Georgia,Kamala Harris,DEM,45,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,307
+Siena/NYT,3,Georgia,Donald Trump,REP,49,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,334
+Siena/NYT,3,Georgia,Kamala Harris,DEM,43,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,293
+Siena/NYT,3,Georgia,Donald Trump,REP,46,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,314
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,300
+Siena/NYT,3,Georgia,Donald Trump,REP,47,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,321
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,321
+Siena/NYT,3,North Carolina,Donald Trump,REP,48,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,327
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,47,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,321
+Siena/NYT,3,North Carolina,Donald Trump,REP,49,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,334
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,46,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,314
+Siena/NYT,3,North Carolina,Donald Trump,REP,46,682,rv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,314
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,45,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,307
+Siena/NYT,3,North Carolina,Donald Trump,REP,47,682,lv,Live Phone,2024-09-17,2024-09-21,FALSE,NA,-1.5,9,321
+YouGov,3,National,Kamala Harris,DEM,52,3129,lv,Online Panel,2024-09-18,2024-09-20,FALSE,NA,-1.1,9,1627
+YouGov,3,National,Donald Trump,REP,48,3129,lv,Online Panel,2024-09-18,2024-09-20,FALSE,NA,-1.1,9,1502
+Muhlenberg,2.8,Pennsylvania,Kamala Harris,DEM,48,450,lv,Live Phone,2024-09-16,2024-09-19,FALSE,NA,-1,8,216
+Muhlenberg,2.8,Pennsylvania,Donald Trump,REP,48,450,lv,Live Phone,2024-09-16,2024-09-19,FALSE,NA,-1,8,216
+U of Massachusetts Lowell,2.9,Pennsylvania,Kamala Harris,DEM,48,800,lv,Online Panel,2024-09-11,2024-09-19,FALSE,NA,-1,9,384
+U of Massachusetts Lowell,2.9,Pennsylvania,Donald Trump,REP,46,800,lv,Online Panel,2024-09-11,2024-09-19,FALSE,NA,-1,9,368
+Emerson,2.9,Arizona,Kamala Harris,DEM,48.7,868,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,423
+Emerson,2.9,Arizona,Donald Trump,REP,49.8,868,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,432
+Emerson,2.9,Georgia,Kamala Harris,DEM,48.2,975,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,470
+Emerson,2.9,Georgia,Donald Trump,REP,50.3,975,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,490
+Emerson,2.9,Michigan,Kamala Harris,DEM,50,875,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,438
+Emerson,2.9,Michigan,Donald Trump,REP,49.1,875,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,430
+Emerson,2.9,Nevada,Kamala Harris,DEM,48.8,895,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,437
+Emerson,2.9,Nevada,Donald Trump,REP,49,895,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,439
+Emerson,2.9,Pennsylvania,Kamala Harris,DEM,49.6,880,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,436
+Emerson,2.9,Pennsylvania,Donald Trump,REP,49.3,880,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,434
+Emerson,2.9,North Carolina,Kamala Harris,DEM,49.7,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,497
+Emerson,2.9,North Carolina,Donald Trump,REP,49.3,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,493
+Emerson,2.9,Wisconsin,Kamala Harris,DEM,48.7,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,487
+Emerson,2.9,Wisconsin,Donald Trump,REP,50.3,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-15,2024-09-18,FALSE,NA,-1.1,7,503
+MassINC Polling Group,2.8,Pennsylvania,Kamala Harris,DEM,50,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,400
+MassINC Polling Group,2.8,Pennsylvania,Donald Trump,REP,46,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,368
+MassINC Polling Group,2.8,Pennsylvania,Kamala Harris,DEM,52,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,416
+MassINC Polling Group,2.8,Pennsylvania,Donald Trump,REP,47,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,376
+MassINC Polling Group,2.8,Massachusetts,Kamala Harris,DEM,63,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,504
+MassINC Polling Group,2.8,Massachusetts,Donald Trump,REP,35,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,280
+SurveyUSA,2.8,New Mexico,Kamala Harris,DEM,50,619,lv,Online Panel,2024-09-12,2024-09-18,FALSE,NA,-1.3,8,310
+SurveyUSA,2.8,New Mexico,Donald Trump,REP,42,619,lv,Online Panel,2024-09-12,2024-09-18,FALSE,NA,-1.3,8,260
+MassINC Polling Group,2.8,Wisconsin,Kamala Harris,DEM,53,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,424
+MassINC Polling Group,2.8,Wisconsin,Donald Trump,REP,46,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,368
+MassINC Polling Group,2.8,Rhode Island,Kamala Harris,DEM,56,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,448
+MassINC Polling Group,2.8,Rhode Island,Donald Trump,REP,43,800,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-18,FALSE,NA,-0.8,7,344
+YouGov,3,National,Kamala Harris,DEM,49,1445,rv,Online Panel,2024-09-15,2024-09-17,FALSE,NA,-1.1,9,708
+YouGov,3,National,Donald Trump,REP,45,1445,rv,Online Panel,2024-09-15,2024-09-17,FALSE,NA,-1.1,9,650
+Marist,2.9,Pennsylvania,Kamala Harris,DEM,49,1663,rv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,815
+Marist,2.9,Pennsylvania,Donald Trump,REP,48,1663,rv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,798
+Marist,2.9,Pennsylvania,Kamala Harris,DEM,49,1476,lv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,723
+Marist,2.9,Pennsylvania,Donald Trump,REP,49,1476,lv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,723
+Marist,2.9,Wisconsin,Kamala Harris,DEM,50,1312,rv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,656
+Marist,2.9,Wisconsin,Donald Trump,REP,47,1312,rv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,617
+Marist,2.9,Wisconsin,Kamala Harris,DEM,50,1194,lv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,597
+Marist,2.9,Wisconsin,Donald Trump,REP,49,1194,lv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,585
+Marist,2.9,Michigan,Kamala Harris,DEM,50,1282,rv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,641
+Marist,2.9,Michigan,Donald Trump,REP,47,1282,rv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,603
+Marist,2.9,Michigan,Kamala Harris,DEM,52,1138,lv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,592
+Marist,2.9,Michigan,Donald Trump,REP,47,1138,lv,Live Phone/Online Panel/Text-to-Web,2024-09-12,2024-09-17,FALSE,NA,-0.9,7,535
+Beacon/Shaw,2.8,National,Kamala Harris,DEM,50,1102,rv,Live Phone/Text-to-Web,2024-09-13,2024-09-16,FALSE,NA,-1.1,9,551
+Beacon/Shaw,2.8,National,Donald Trump,REP,48,1102,rv,Live Phone/Text-to-Web,2024-09-13,2024-09-16,FALSE,NA,-1.1,9,529
+Beacon/Shaw,2.8,National,Kamala Harris,DEM,50,876,lv,Live Phone/Text-to-Web,2024-09-13,2024-09-16,FALSE,NA,-1.1,9,438
+Beacon/Shaw,2.8,National,Donald Trump,REP,48,876,lv,Live Phone/Text-to-Web,2024-09-13,2024-09-16,FALSE,NA,-1.1,9,420
+Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,51,1331,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,679
+Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,45,1331,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,599
+Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,51,1331,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,679
+Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,46,1331,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,612
+Quinnipiac,2.8,Michigan,Kamala Harris,DEM,50,905,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,452
+Quinnipiac,2.8,Michigan,Donald Trump,REP,45,905,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,407
+Quinnipiac,2.8,Michigan,Kamala Harris,DEM,51,905,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,462
+Quinnipiac,2.8,Michigan,Donald Trump,REP,46,905,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,416
+Quinnipiac,2.8,Wisconsin,Kamala Harris,DEM,48,1075,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,516
+Quinnipiac,2.8,Wisconsin,Donald Trump,REP,47,1075,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,505
+Quinnipiac,2.8,Wisconsin,Kamala Harris,DEM,49,1075,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,527
+Quinnipiac,2.8,Wisconsin,Donald Trump,REP,48,1075,lv,Live Phone,2024-09-12,2024-09-16,FALSE,NA,-0.5,9,516
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1003,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-16,FALSE,NA,-1.2,9,481
+The Washington Post,3,Pennsylvania,Donald Trump,REP,47,1003,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-16,FALSE,NA,-1.2,9,471
+The Washington Post,3,Pennsylvania,Kamala Harris,DEM,48,1003,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-16,FALSE,NA,-1.2,9,481
+The Washington Post,3,Pennsylvania,Donald Trump,REP,48,1003,lv,Live Phone/Text-to-Web,2024-09-12,2024-09-16,FALSE,NA,-1.2,9,481
+Siena/NYT,3,National,Kamala Harris,DEM,47,2437,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1145
+Siena/NYT,3,National,Donald Trump,REP,47,2437,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1145
+Siena/NYT,3,National,Kamala Harris,DEM,46,2437,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1121
+Siena/NYT,3,National,Donald Trump,REP,47,2437,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1145
+Siena/NYT,3,National,Kamala Harris,DEM,45,2437,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1097
+Siena/NYT,3,National,Donald Trump,REP,46,2437,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1121
+Siena/NYT,3,National,Kamala Harris,DEM,46,2437,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1121
+Siena/NYT,3,National,Donald Trump,REP,46,2437,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,1121
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,1082,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,541
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,46,1082,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,498
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,1082,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,541
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,46,1082,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,498
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,48,1082,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,519
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,45,1082,rv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,487
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,1082,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,530
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,45,1082,lv,Live Phone,2024-09-11,2024-09-16,FALSE,NA,-1.5,9,487
+Suffolk,2.9,Pennsylvania,Kamala Harris,DEM,48.6,500,lv,Live Phone,2024-09-11,2024-09-14,FALSE,NA,-1,8,243
+Suffolk,2.9,Pennsylvania,Donald Trump,REP,45.6,500,lv,Live Phone,2024-09-11,2024-09-14,FALSE,NA,-1,8,228
+Emerson,2.9,Maryland,Kamala Harris,DEM,65.3,890,lv,Online Panel/Text-to-Web,2024-09-12,2024-09-13,FALSE,NA,-1.1,7,581
+Emerson,2.9,Maryland,Donald Trump,REP,33.3,890,lv,Online Panel/Text-to-Web,2024-09-12,2024-09-13,FALSE,NA,-1.1,7,296
+Emerson,2.9,Missouri,Kamala Harris,DEM,43.4,850,lv,Online Panel/Text-to-Web,2024-09-12,2024-09-13,FALSE,NA,-1.1,7,369
+Emerson,2.9,Missouri,Donald Trump,REP,55.2,850,lv,Online Panel/Text-to-Web,2024-09-12,2024-09-13,FALSE,NA,-1.1,7,469
+Emerson,2.9,Indiana,Kamala Harris,DEM,40.7,1000,lv,Online Panel/Text-to-Web,2024-09-12,2024-09-13,FALSE,NA,-1.1,7,407
+Emerson,2.9,Indiana,Donald Trump,REP,57.9,1000,lv,Online Panel/Text-to-Web,2024-09-12,2024-09-13,FALSE,NA,-1.1,7,579
+YouGov,3,National,Kamala Harris,DEM,50,1177,rv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,588
+YouGov,3,National,Donald Trump,REP,45,1177,rv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,530
+YouGov,3,National,Kamala Harris,DEM,50,1090,lv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,545
+YouGov,3,National,Donald Trump,REP,46,1090,lv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,501
+YouGov,3,National,Kamala Harris,DEM,48,1175,rv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,564
+YouGov,3,National,Donald Trump,REP,44,1175,rv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,517
+YouGov,3,National,Kamala Harris,DEM,49,1090,lv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,534
+YouGov,3,National,Donald Trump,REP,45,1090,lv,Online Panel,2024-09-11,2024-09-13,FALSE,NA,-1.1,9,490
+Ipsos,2.8,National,Kamala Harris,DEM,51,3276,a,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1671
+Ipsos,2.8,National,Donald Trump,REP,46,3276,a,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1507
+Ipsos,2.8,National,Kamala Harris,DEM,51,2772,rv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1414
+Ipsos,2.8,National,Donald Trump,REP,47,2772,rv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1303
+Ipsos,2.8,National,Kamala Harris,DEM,52,2196,lv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1142
+Ipsos,2.8,National,Donald Trump,REP,46,2196,lv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1010
+Ipsos,2.8,National,Kamala Harris,DEM,51,3276,a,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1671
+Ipsos,2.8,National,Donald Trump,REP,45,3276,a,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1474
+Ipsos,2.8,National,Kamala Harris,DEM,50,2772,rv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1386
+Ipsos,2.8,National,Donald Trump,REP,46,2772,rv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1275
+Ipsos,2.8,National,Kamala Harris,DEM,51,2196,lv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1120
+Ipsos,2.8,National,Donald Trump,REP,46,2196,lv,Probability Panel,2024-09-11,2024-09-13,FALSE,NA,-0.9,9.5,1010
+Ipsos,2.8,National,Kamala Harris,DEM,47,1405,rv,Probability Panel,2024-09-11,2024-09-12,FALSE,NA,-0.9,9.5,660
+Ipsos,2.8,National,Donald Trump,REP,42,1405,rv,Probability Panel,2024-09-11,2024-09-12,FALSE,NA,-0.9,9.5,590
+Ipsos,2.8,National,Kamala Harris,DEM,43,1690,a,Probability Panel,2024-09-11,2024-09-12,FALSE,NA,-0.9,9.5,727
+Ipsos,2.8,National,Donald Trump,REP,39,1690,a,Probability Panel,2024-09-11,2024-09-12,FALSE,NA,-0.9,9.5,659
+YouGov,3,National,Kamala Harris,DEM,45,1464,rv,Online Panel,2024-09-08,2024-09-10,FALSE,NA,-1.1,9,659
+YouGov,3,National,Donald Trump,REP,45,1464,rv,Online Panel,2024-09-08,2024-09-10,FALSE,NA,-1.1,9,659
+Data Orbital,2.9,Arizona,Kamala Harris,DEM,46,550,lv,Live Phone/Text-to-Web,2024-09-07,2024-09-09,FALSE,NA,-0.9,10,253
+Data Orbital,2.9,Arizona,Donald Trump,REP,46.2,550,lv,Live Phone/Text-to-Web,2024-09-07,2024-09-09,FALSE,NA,-0.9,10,254
+Quinnipiac,2.8,North Carolina,Kamala Harris,DEM,49,940,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,461
+Quinnipiac,2.8,North Carolina,Donald Trump,REP,46,940,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,432
+Quinnipiac,2.8,North Carolina,Kamala Harris,DEM,50,940,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,470
+Quinnipiac,2.8,North Carolina,Donald Trump,REP,47,940,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,442
+Quinnipiac,2.8,Georgia,Kamala Harris,DEM,45,969,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,436
+Quinnipiac,2.8,Georgia,Donald Trump,REP,49,969,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,475
+Quinnipiac,2.8,Georgia,Kamala Harris,DEM,46,969,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,446
+Quinnipiac,2.8,Georgia,Donald Trump,REP,49,969,lv,Live Phone,2024-09-04,2024-09-08,FALSE,NA,-0.5,9,475
+SurveyUSA,2.8,North Carolina,Kamala Harris,DEM,49,676,lv,Online Panel,2024-09-04,2024-09-07,FALSE,NA,-1.3,8,331
+SurveyUSA,2.8,North Carolina,Donald Trump,REP,46,676,lv,Online Panel,2024-09-04,2024-09-07,FALSE,NA,-1.3,8,311
+YouGov,3,Michigan,Kamala Harris,DEM,50,1077,lv,Online Panel,2024-09-03,2024-09-06,FALSE,NA,-1.1,9,538
+YouGov,3,Michigan,Donald Trump,REP,49,1077,lv,Online Panel,2024-09-03,2024-09-06,FALSE,NA,-1.1,9,528
+YouGov,3,Pennsylvania,Kamala Harris,DEM,50,1078,lv,Online Panel,2024-09-03,2024-09-06,FALSE,NA,-1.1,9,539
+YouGov,3,Pennsylvania,Donald Trump,REP,50,1078,lv,Online Panel,2024-09-03,2024-09-06,FALSE,NA,-1.1,9,539
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,946,lv,Online Panel,2024-09-03,2024-09-06,FALSE,NA,-1.1,9,482
+YouGov,3,Wisconsin,Donald Trump,REP,49,946,lv,Online Panel,2024-09-03,2024-09-06,FALSE,NA,-1.1,9,464
+Siena/NYT,3,National,Kamala Harris,DEM,47,1695,lv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,797
+Siena/NYT,3,National,Donald Trump,REP,48,1695,lv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,814
+Siena/NYT,3,National,Kamala Harris,DEM,45,1695,lv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,763
+Siena/NYT,3,National,Donald Trump,REP,47,1695,lv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,797
+Siena/NYT,3,National,Kamala Harris,DEM,46,1695,rv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,780
+Siena/NYT,3,National,Donald Trump,REP,48,1695,rv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,814
+Siena/NYT,3,National,Kamala Harris,DEM,44,1695,rv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,746
+Siena/NYT,3,National,Donald Trump,REP,46,1695,rv,Live Phone,2024-09-03,2024-09-06,FALSE,NA,-1.5,9,780
+Emerson,2.9,California,Kamala Harris,DEM,60.8,815,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,496
+Emerson,2.9,California,Donald Trump,REP,38,815,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,310
+Emerson,2.9,Florida,Kamala Harris,DEM,47.6,815,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,388
+Emerson,2.9,Florida,Donald Trump,REP,51.1,815,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,416
+Emerson,2.9,Texas,Kamala Harris,DEM,48,845,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,406
+Emerson,2.9,Texas,Donald Trump,REP,50.9,845,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,430
+Emerson,2.9,Ohio,Kamala Harris,DEM,44.7,945,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,422
+Emerson,2.9,Ohio,Donald Trump,REP,54.3,945,lv,Online Panel/Text-to-Web,2024-09-03,2024-09-05,FALSE,NA,-1.1,7,513
+Marist,2.9,National,Kamala Harris,DEM,49,1413,rv,Live Phone/Online Panel/Text,2024-09-03,2024-09-05,FALSE,NA,-0.9,7,692
+Marist,2.9,National,Donald Trump,REP,48,1413,rv,Live Phone/Online Panel/Text,2024-09-03,2024-09-05,FALSE,NA,-0.9,7,678
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,822,rv,Live Phone/Email,2024-08-28,2024-09-05,FALSE,NA,-1.1,10,427
+Marquette Law School,3,Wisconsin,Donald Trump,REP,48,822,rv,Live Phone/Email,2024-08-28,2024-09-05,FALSE,NA,-1.1,10,395
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,52,738,lv,Live Phone/Email,2024-08-28,2024-09-05,FALSE,NA,-1.1,10,384
+Marquette Law School,3,Wisconsin,Donald Trump,REP,48,738,lv,Live Phone/Email,2024-08-28,2024-09-05,FALSE,NA,-1.1,10,354
+Emerson,2.9,National,Kamala Harris,DEM,51.3,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-03,2024-09-04,FALSE,NA,-1.1,7,513
+Emerson,2.9,National,Donald Trump,REP,47.6,1000,lv,IVR/Online Panel/Text-to-Web,2024-09-03,2024-09-04,FALSE,NA,-1.1,7,476
+YouGov,3,National,Kamala Harris,DEM,47,1389,rv,Online Panel,2024-09-01,2024-09-03,FALSE,NA,-1.1,9,653
+YouGov,3,National,Donald Trump,REP,45,1389,rv,Online Panel,2024-09-01,2024-09-03,FALSE,NA,-1.1,9,625
+YouGov,3,Texas,Kamala Harris,DEM,44,1200,rv,Online Panel,2024-08-23,2024-08-31,FALSE,NA,-1.1,9,528
+YouGov,3,Texas,Donald Trump,REP,49,1200,rv,Online Panel,2024-08-23,2024-08-31,FALSE,NA,-1.1,9,588
+YouGov,3,Texas,Kamala Harris,DEM,44,1200,rv,Online Panel,2024-08-23,2024-08-31,FALSE,NA,-1.1,9,528
+YouGov,3,Texas,Donald Trump,REP,49,1200,rv,Online Panel,2024-08-23,2024-08-31,FALSE,NA,-1.1,9,588
+SurveyUSA,2.8,Minnesota,Kamala Harris,DEM,48,635,lv,Online Panel,2024-08-27,2024-08-29,FALSE,NA,-1.3,8,305
+SurveyUSA,2.8,Minnesota,Donald Trump,REP,43,635,lv,Online Panel,2024-08-27,2024-08-29,FALSE,NA,-1.3,8,273
+CNN/SSRS,2.8,Arizona,Kamala Harris,DEM,44,682,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,300
+CNN/SSRS,2.8,Arizona,Donald Trump,REP,49,682,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,334
+CNN/SSRS,2.8,Georgia,Kamala Harris,DEM,48,617,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,296
+CNN/SSRS,2.8,Georgia,Donald Trump,REP,47,617,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,290
+CNN/SSRS,2.8,Nevada,Kamala Harris,DEM,48,626,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,300
+CNN/SSRS,2.8,Nevada,Donald Trump,REP,47,626,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,294
+CNN/SSRS,2.8,Pennsylvania,Kamala Harris,DEM,47,789,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,371
+CNN/SSRS,2.8,Pennsylvania,Donald Trump,REP,47,789,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,371
+CNN/SSRS,2.8,Wisconsin,Kamala Harris,DEM,50,976,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,488
+CNN/SSRS,2.8,Wisconsin,Donald Trump,REP,44,976,lv,Probability Panel,2024-08-23,2024-08-29,FALSE,NA,-0.6,10,429
+Emerson,2.9,Arizona,Kamala Harris,DEM,47.5,720,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,342
+Emerson,2.9,Arizona,Donald Trump,REP,51.2,720,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,369
+Emerson,2.9,Michigan,Kamala Harris,DEM,51.2,800,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,410
+Emerson,2.9,Michigan,Donald Trump,REP,47.6,800,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,381
+Emerson,2.9,Nevada,Kamala Harris,DEM,49.4,1168,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,577
+Emerson,2.9,Nevada,Donald Trump,REP,48.8,1168,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,570
+Emerson,2.9,Pennsylvania,Kamala Harris,DEM,49.4,950,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,469
+Emerson,2.9,Pennsylvania,Donald Trump,REP,49.4,950,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,469
+Emerson,2.9,Wisconsin,Kamala Harris,DEM,49.1,850,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,417
+Emerson,2.9,Wisconsin,Donald Trump,REP,49.8,850,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,423
+Emerson,2.9,North Carolina,Kamala Harris,DEM,49,775,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,380
+Emerson,2.9,North Carolina,Donald Trump,REP,49.9,775,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,387
+Emerson,2.9,Georgia,Kamala Harris,DEM,50.1,800,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,401
+Emerson,2.9,Georgia,Donald Trump,REP,49,800,lv,IVR/Online Panel/Text-to-Web,2024-08-25,2024-08-28,FALSE,NA,-1.1,7,392
+Suffolk,2.9,National,Kamala Harris,DEM,47.6,1000,lv,Live Phone,2024-08-25,2024-08-28,FALSE,NA,-1,8,476
+Suffolk,2.9,National,Donald Trump,REP,43.3,1000,lv,Live Phone,2024-08-25,2024-08-28,FALSE,NA,-1,8,433
+Ipsos,2.8,National,Kamala Harris,DEM,41,4253,a,Probability Panel,2024-08-21,2024-08-28,FALSE,NA,-0.9,9.5,1744
+Ipsos,2.8,National,Donald Trump,REP,38,4253,a,Probability Panel,2024-08-21,2024-08-28,FALSE,NA,-0.9,9.5,1616
+Ipsos,2.8,National,Kamala Harris,DEM,45,3562,rv,Probability Panel,2024-08-21,2024-08-28,FALSE,NA,-0.9,9.5,1603
+Ipsos,2.8,National,Donald Trump,REP,41,3562,rv,Probability Panel,2024-08-21,2024-08-28,FALSE,NA,-0.9,9.5,1460
+YouGov,3,National,Kamala Harris,DEM,47,1368,rv,Online Panel,2024-08-25,2024-08-27,FALSE,NA,-1.1,9,643
+YouGov,3,National,Donald Trump,REP,45,1368,rv,Online Panel,2024-08-25,2024-08-27,FALSE,NA,-1.1,9,616
+Quinnipiac,2.8,National,Kamala Harris,DEM,49,1611,lv,Live Phone,2024-08-23,2024-08-27,FALSE,NA,-0.5,9,789
+Quinnipiac,2.8,National,Donald Trump,REP,47,1611,lv,Live Phone,2024-08-23,2024-08-27,FALSE,NA,-0.5,9,757
+Quinnipiac,2.8,National,Kamala Harris,DEM,49,1611,lv,Live Phone,2024-08-23,2024-08-27,FALSE,NA,-0.5,9,789
+Quinnipiac,2.8,National,Donald Trump,REP,48,1611,lv,Live Phone,2024-08-23,2024-08-27,FALSE,NA,-0.5,9,773
+Ipsos,2.8,National,Kamala Harris,DEM,50,2496,a,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,1248
+Ipsos,2.8,National,Donald Trump,REP,46,2496,a,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,1148
+Ipsos,2.8,National,Kamala Harris,DEM,50,NA,rv,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,NA
+Ipsos,2.8,National,Donald Trump,REP,46,NA,rv,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,NA
+Ipsos,2.8,National,Kamala Harris,DEM,52,NA,lv,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,NA
+Ipsos,2.8,National,Donald Trump,REP,46,NA,lv,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,NA
+Ipsos,2.8,National,Kamala Harris,DEM,49,2496,a,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,1223
+Ipsos,2.8,National,Donald Trump,REP,45,2496,a,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,1123
+Ipsos,2.8,National,Kamala Harris,DEM,50,NA,rv,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,NA
+Ipsos,2.8,National,Donald Trump,REP,45,NA,rv,Probability Panel,2024-08-23,2024-08-27,FALSE,NA,-0.9,9.5,NA
+SurveyUSA,2.8,Nebraska,Kamala Harris,DEM,37,1293,rv,IVR/Online Panel/Text-to-Web,2024-08-23,2024-08-27,FALSE,NA,-1.3,8,478
+SurveyUSA,2.8,Nebraska,Donald Trump,REP,54,1293,rv,IVR/Online Panel/Text-to-Web,2024-08-23,2024-08-27,FALSE,NA,-1.3,8,698
+SurveyUSA,2.8,Nebraska,Kamala Harris,DEM,47,507,rv,IVR/Online Panel/Text-to-Web,2024-08-23,2024-08-27,FALSE,NA,-1.3,8,238
+SurveyUSA,2.8,Nebraska,Donald Trump,REP,42,507,rv,IVR/Online Panel/Text-to-Web,2024-08-23,2024-08-27,FALSE,NA,-1.3,8,213
+Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,48,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,487
+Beacon/Shaw,2.8,Arizona,Donald Trump,REP,47,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,477
+Beacon/Shaw,2.8,Arizona,Kamala Harris,DEM,50,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,507
+Beacon/Shaw,2.8,Arizona,Donald Trump,REP,49,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,497
+Beacon/Shaw,2.8,Georgia,Kamala Harris,DEM,48,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,487
+Beacon/Shaw,2.8,Georgia,Donald Trump,REP,46,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,466
+Beacon/Shaw,2.8,Georgia,Kamala Harris,DEM,50,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,507
+Beacon/Shaw,2.8,Georgia,Donald Trump,REP,48,1014,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,487
+Beacon/Shaw,2.8,Nevada,Kamala Harris,DEM,48,1026,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,492
+Beacon/Shaw,2.8,Nevada,Donald Trump,REP,46,1026,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,472
+Beacon/Shaw,2.8,Nevada,Kamala Harris,DEM,50,1026,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,513
+Beacon/Shaw,2.8,Nevada,Donald Trump,REP,48,1026,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,492
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,47,999,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,470
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,48,999,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,480
+Beacon/Shaw,2.8,North Carolina,Kamala Harris,DEM,49,999,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,490
+Beacon/Shaw,2.8,North Carolina,Donald Trump,REP,50,999,rv,Live Phone/Text-to-Web,2024-08-23,2024-08-26,FALSE,NA,-1.1,9,500
+YouGov,3,National,Kamala Harris,DEM,46,1194,rv,Online Panel,2024-08-22,2024-08-26,FALSE,NA,-1.1,9,549
+YouGov,3,National,Donald Trump,REP,45,1194,rv,Online Panel,2024-08-22,2024-08-26,FALSE,NA,-1.1,9,537
+YouGov,3,National,Kamala Harris,DEM,47,1197,rv,Online Panel,2024-08-22,2024-08-26,FALSE,NA,-1.1,9,563
+YouGov,3,National,Donald Trump,REP,46,1197,rv,Online Panel,2024-08-22,2024-08-26,FALSE,NA,-1.1,9,551
+YouGov,3,Pennsylvania,Kamala Harris,DEM,43,500,a,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,215
+YouGov,3,Pennsylvania,Donald Trump,REP,42.5,500,a,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,212
+YouGov,3,Pennsylvania,Kamala Harris,DEM,47,NA,lv,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,NA
+YouGov,3,Pennsylvania,Donald Trump,REP,47,NA,lv,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,NA
+YouGov,3,Wisconsin,Kamala Harris,DEM,48,500,a,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,240
+YouGov,3,Wisconsin,Donald Trump,REP,42,500,a,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,210
+YouGov,3,Wisconsin,Kamala Harris,DEM,51,NA,lv,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,NA
+YouGov,3,Wisconsin,Donald Trump,REP,46,NA,lv,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,NA
+YouGov,3,Michigan,Kamala Harris,DEM,44,500,a,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,220
+YouGov,3,Michigan,Donald Trump,REP,43.5,500,a,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,218
+YouGov,3,Michigan,Kamala Harris,DEM,47,NA,lv,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,NA
+YouGov,3,Michigan,Donald Trump,REP,48,NA,lv,Online Panel,2024-08-15,2024-08-23,FALSE,NA,-1.1,9,NA
+Emerson,2.9,New Mexico,Kamala Harris,DEM,53.6,965,rv,IVR/Online Panel/Text-to-Web,2024-08-20,2024-08-22,FALSE,NA,-1.1,7,517
+Emerson,2.9,New Mexico,Donald Trump,REP,46.4,965,rv,IVR/Online Panel/Text-to-Web,2024-08-20,2024-08-22,FALSE,NA,-1.1,7,448
+YouGov,3,National,Kamala Harris,DEM,44,1835,a,Online Panel,2024-08-15,2024-08-22,FALSE,NA,-1.1,9,807
+YouGov,3,National,Donald Trump,REP,40,1835,a,Online Panel,2024-08-15,2024-08-22,FALSE,NA,-1.1,9,734
+SurveyUSA,2.8,North Carolina,Kamala Harris,DEM,46,1053,rv,Online Panel,2024-08-19,2024-08-21,FALSE,NA,-1.3,10,484
+SurveyUSA,2.8,North Carolina,Donald Trump,REP,45,1053,rv,Online Panel,2024-08-19,2024-08-21,FALSE,NA,-1.3,10,474
+SurveyUSA,2.8,North Carolina,Kamala Harris,DEM,47,941,lv,Online Panel,2024-08-19,2024-08-21,FALSE,NA,-1.3,10,442
+SurveyUSA,2.8,North Carolina,Donald Trump,REP,47,941,lv,Online Panel,2024-08-19,2024-08-21,FALSE,NA,-1.3,10,442
+YouGov,3,National,Kamala Harris,DEM,51,3253,lv,Online Panel,2024-08-14,2024-08-16,FALSE,NA,-1.1,9,1659
+YouGov,3,National,Donald Trump,REP,48,3253,lv,Online Panel,2024-08-14,2024-08-16,FALSE,NA,-1.1,9,1561
+YouGov,3,Missouri,Kamala Harris,DEM,41,900,lv,Online Panel,2024-08-08,2024-08-16,FALSE,NA,-1.1,9,369
+YouGov,3,Missouri,Donald Trump,REP,54,900,lv,Online Panel,2024-08-08,2024-08-16,FALSE,NA,-1.1,9,486
+Siena/NYT,3,Nevada,Kamala Harris,DEM,46,677,rv,Live Phone,2024-08-12,2024-08-15,FALSE,NA,-1.5,9,311
+Siena/NYT,3,Nevada,Donald Trump,REP,48,677,rv,Live Phone,2024-08-12,2024-08-15,FALSE,NA,-1.5,9,325
+Siena/NYT,3,Nevada,Kamala Harris,DEM,47,677,lv,Live Phone,2024-08-12,2024-08-15,FALSE,NA,-1.5,9,318
+Siena/NYT,3,Nevada,Donald Trump,REP,48,677,lv,Live Phone,2024-08-12,2024-08-15,FALSE,NA,-1.5,9,325
+Siena/NYT,3,Arizona,Kamala Harris,DEM,49,677,rv,Live Phone,2024-08-08,2024-08-15,FALSE,NA,-1.5,9,332
+Siena/NYT,3,Arizona,Donald Trump,REP,45,677,rv,Live Phone,2024-08-08,2024-08-15,FALSE,NA,-1.5,9,305
+Siena/NYT,3,Arizona,Kamala Harris,DEM,50,677,lv,Live Phone,2024-08-08,2024-08-15,FALSE,NA,-1.5,9,338
+Siena/NYT,3,Arizona,Donald Trump,REP,45,677,lv,Live Phone,2024-08-08,2024-08-15,FALSE,NA,-1.5,9,305
+Emerson,2.9,Pennsylvania,Kamala Harris,DEM,49.3,1000,lv,IVR/Online Panel/Text-to-Web,2024-08-13,2024-08-14,FALSE,NA,-1.1,7,493
+Emerson,2.9,Pennsylvania,Donald Trump,REP,50.7,1000,lv,IVR/Online Panel/Text-to-Web,2024-08-13,2024-08-14,FALSE,NA,-1.1,7,507
+Emerson,2.9,National,Kamala Harris,DEM,52.3,1000,lv,IVR/Online Panel/Text-to-Web,2024-08-12,2024-08-14,FALSE,NA,-1.1,7,523
+Emerson,2.9,National,Donald Trump,REP,47.7,1000,lv,IVR/Online Panel/Text-to-Web,2024-08-12,2024-08-14,FALSE,NA,-1.1,7,477
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,49,655,rv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,321
+Siena/NYT,3,North Carolina,Donald Trump,REP,46,655,rv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,301
+Siena/NYT,3,North Carolina,Kamala Harris,DEM,49,655,lv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,321
+Siena/NYT,3,North Carolina,Donald Trump,REP,47,655,lv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,308
+Siena/NYT,3,Georgia,Kamala Harris,DEM,44,661,rv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,291
+Siena/NYT,3,Georgia,Donald Trump,REP,51,661,rv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,337
+Siena/NYT,3,Georgia,Kamala Harris,DEM,46,661,lv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,304
+Siena/NYT,3,Georgia,Donald Trump,REP,50,661,lv,Live Phone,2024-08-09,2024-08-14,FALSE,NA,-1.5,9,330
+Ipsos,2.8,National,Kamala Harris,DEM,50,2336,a,Probability Panel,2024-08-09,2024-08-13,FALSE,NA,-0.9,9.5,1168
+Ipsos,2.8,National,Donald Trump,REP,45,2336,a,Probability Panel,2024-08-09,2024-08-13,FALSE,NA,-0.9,9.5,1051
+Ipsos,2.8,National,Kamala Harris,DEM,49,1975,rv,Probability Panel,2024-08-09,2024-08-13,FALSE,NA,-0.9,9.5,968
+Ipsos,2.8,National,Donald Trump,REP,45,1975,rv,Probability Panel,2024-08-09,2024-08-13,FALSE,NA,-0.9,9.5,889
+Ipsos,2.8,National,Kamala Harris,DEM,51,1505,lv,Probability Panel,2024-08-09,2024-08-13,FALSE,NA,-0.9,9.5,768
+Ipsos,2.8,National,Donald Trump,REP,45,1505,lv,Probability Panel,2024-08-09,2024-08-13,FALSE,NA,-0.9,9.5,677
+Beacon/Shaw,2.8,National,Kamala Harris,DEM,49,1105,rv,Live Phone,2024-08-09,2024-08-12,FALSE,NA,-1.1,9,541
+Beacon/Shaw,2.8,National,Donald Trump,REP,50,1105,rv,Live Phone,2024-08-09,2024-08-12,FALSE,NA,-1.1,9,552
+Quinnipiac,2.8,Pennsylvania,Kamala Harris,DEM,50,1738,lv,Live Phone,2024-08-08,2024-08-12,FALSE,NA,-0.5,9,869
+Quinnipiac,2.8,Pennsylvania,Donald Trump,REP,47,1738,lv,Live Phone,2024-08-08,2024-08-12,FALSE,NA,-0.5,9,817
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,49,693,rv,Live Phone,2024-08-06,2024-08-09,FALSE,NA,-1.5,9,340
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,46,693,rv,Live Phone,2024-08-06,2024-08-09,FALSE,NA,-1.5,9,319
+Siena/NYT,3,Pennsylvania,Kamala Harris,DEM,50,693,lv,Live Phone,2024-08-06,2024-08-09,FALSE,NA,-1.5,9,346
+Siena/NYT,3,Pennsylvania,Donald Trump,REP,46,693,lv,Live Phone,2024-08-06,2024-08-09,FALSE,NA,-1.5,9,319
+Siena/NYT,3,Michigan,Kamala Harris,DEM,45,619,rv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,279
+Siena/NYT,3,Michigan,Donald Trump,REP,48,619,rv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,297
+Siena/NYT,3,Michigan,Kamala Harris,DEM,50,619,lv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,310
+Siena/NYT,3,Michigan,Donald Trump,REP,46,619,lv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,285
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,50,661,rv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,330
+Siena/NYT,3,Wisconsin,Donald Trump,REP,46,661,rv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,304
+Siena/NYT,3,Wisconsin,Kamala Harris,DEM,50,661,lv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,330
+Siena/NYT,3,Wisconsin,Donald Trump,REP,46,661,lv,Live Phone,2024-08-05,2024-08-08,FALSE,NA,-1.5,9,304
+Ipsos,2.8,National,Kamala Harris,DEM,49,1342,rv,Probability Panel,2024-08-02,2024-08-07,FALSE,NA,-0.9,9.5,658
+Ipsos,2.8,National,Donald Trump,REP,47,1342,rv,Probability Panel,2024-08-02,2024-08-07,FALSE,NA,-0.9,9.5,631
+Emerson,2.9,Montana,Kamala Harris,DEM,42.5,1000,lv,Online Panel/Text-to-Web,2024-08-05,2024-08-06,FALSE,NA,-1.1,7,425
+Emerson,2.9,Montana,Donald Trump,REP,57.5,1000,lv,Online Panel/Text-to-Web,2024-08-05,2024-08-06,FALSE,NA,-1.1,7,575
+SurveyUSA,2.8,National,Kamala Harris,DEM,48,1510,lv,Online Panel,2024-08-02,2024-08-05,FALSE,NA,-1.3,8,725
+SurveyUSA,2.8,National,Donald Trump,REP,45,1510,lv,Online Panel,2024-08-02,2024-08-05,FALSE,NA,-1.3,8,680
+Marist,2.9,National,Kamala Harris,DEM,51,1513,rv,Live Phone/Online Panel/Text-to-Web,2024-08-01,2024-08-04,FALSE,NA,-0.9,7,772
+Marist,2.9,National,Donald Trump,REP,48,1513,rv,Live Phone/Online Panel/Text-to-Web,2024-08-01,2024-08-04,FALSE,NA,-0.9,7,726
+YouGov,3,National,Kamala Harris,DEM,50,3092,lv,Online Panel,2024-07-30,2024-08-02,FALSE,NA,-1.1,9,1546
+YouGov,3,National,Donald Trump,REP,49,3092,lv,Online Panel,2024-07-30,2024-08-02,FALSE,NA,-1.1,9,1515
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,49,877,rv,Live Phone/Email,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,430
+Marquette Law School,3,Wisconsin,Donald Trump,REP,50,877,rv,Live Phone/Email,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,438
+Marquette Law School,3,Wisconsin,Kamala Harris,DEM,50,801,lv,Live Phone/Email,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,400
+Marquette Law School,3,Wisconsin,Donald Trump,REP,49,801,lv,Live Phone/Email,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,392
+Marquette Law School,3,National,Kamala Harris,DEM,52,879,rv,Probability Panel,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,457
+Marquette Law School,3,National,Donald Trump,REP,48,879,rv,Probability Panel,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,422
+Marquette Law School,3,National,Kamala Harris,DEM,53,683,lv,Probability Panel,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,362
+Marquette Law School,3,National,Donald Trump,REP,47,683,lv,Probability Panel,2024-07-24,2024-08-01,FALSE,NA,-1.1,10,321
+Ipsos,2.8,National,Kamala Harris,DEM,43,876,rv,Probability Panel,2024-07-26,2024-07-28,FALSE,NA,-0.9,9.5,377
+Ipsos,2.8,National,Donald Trump,REP,42,876,rv,Probability Panel,2024-07-26,2024-07-28,FALSE,NA,-0.9,9.5,368
+Emerson,2.9,New Hampshire,Kamala Harris,DEM,52.4,1000,rv,Online Panel/Text-to-Web,2024-07-26,2024-07-28,FALSE,NA,-1.1,7,524
+Emerson,2.9,New Hampshire,Donald Trump,REP,47.6,1000,rv,Online Panel/Text-to-Web,2024-07-26,2024-07-28,FALSE,NA,-1.1,7,476
+U. North Florida,2.8,Florida,Kamala Harris,DEM,42,774,lv,Live Phone/Text-to-Web,2024-07-24,2024-07-27,FALSE,NA,-0.6,10,325
+U. North Florida,2.8,Florida,Donald Trump,REP,49,774,lv,Live Phone/Text-to-Web,2024-07-24,2024-07-27,FALSE,NA,-0.6,10,379
+SurveyUSA,2.8,Minnesota,Kamala Harris,DEM,50,656,lv,Online Panel,2024-07-23,2024-07-25,FALSE,NA,-1.3,8,328
+SurveyUSA,2.8,Minnesota,Donald Trump,REP,40,656,lv,Online Panel,2024-07-23,2024-07-25,FALSE,NA,-1.3,8,262
+Siena/NYT,3,National,Kamala Harris,DEM,46,1142,rv,Live Phone,2024-07-22,2024-07-24,FALSE,NA,-1.5,9,525
+Siena/NYT,3,National,Donald Trump,REP,48,1142,rv,Live Phone,2024-07-22,2024-07-24,FALSE,NA,-1.5,9,548
+Siena/NYT,3,National,Kamala Harris,DEM,47,1142,lv,Live Phone,2024-07-22,2024-07-24,FALSE,NA,-1.5,9,537
+Siena/NYT,3,National,Donald Trump,REP,48,1142,lv,Live Phone,2024-07-22,2024-07-24,FALSE,NA,-1.5,9,548
+Beacon/Shaw,2.8,Wisconsin,Kamala Harris,DEM,49,1046,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,513
+Beacon/Shaw,2.8,Wisconsin,Donald Trump,REP,50,1046,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,523
+Beacon/Shaw,2.8,Pennsylvania,Kamala Harris,DEM,49,1034,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,507
+Beacon/Shaw,2.8,Pennsylvania,Donald Trump,REP,49,1034,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,507
+Beacon/Shaw,2.8,Minnesota,Kamala Harris,DEM,52,1071,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,557
+Beacon/Shaw,2.8,Minnesota,Donald Trump,REP,46,1071,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,493
+Beacon/Shaw,2.8,Michigan,Kamala Harris,DEM,49,1012,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,496
+Beacon/Shaw,2.8,Michigan,Donald Trump,REP,49,1012,rv,Live Phone/Text-to-Web,2024-07-22,2024-07-24,FALSE,NA,-1.1,9,496
+Ipsos,2.8,National,Kamala Harris,DEM,39,1241,a,Probability Panel,2024-07-22,2024-07-23,FALSE,NA,-0.9,9.5,484
+Ipsos,2.8,National,Donald Trump,REP,39,1241,a,Probability Panel,2024-07-22,2024-07-23,FALSE,NA,-0.9,9.5,484
+Ipsos,2.8,National,Kamala Harris,DEM,44,1018,rv,Probability Panel,2024-07-22,2024-07-23,FALSE,NA,-0.9,9.5,448
+Ipsos,2.8,National,Donald Trump,REP,42,1018,rv,Probability Panel,2024-07-22,2024-07-23,FALSE,NA,-0.9,9.5,428
+Emerson,2.9,Arizona,Kamala Harris,DEM,47.4,800,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,379
+Emerson,2.9,Arizona,Donald Trump,REP,52.6,800,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,421
+Emerson,2.9,Georgia,Kamala Harris,DEM,48.9,800,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,391
+Emerson,2.9,Georgia,Donald Trump,REP,51.1,800,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,409
+Emerson,2.9,Michigan,Kamala Harris,DEM,49.1,800,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,393
+Emerson,2.9,Michigan,Donald Trump,REP,50.9,800,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,407
+Emerson,2.9,Wisconsin,Kamala Harris,DEM,50.6,845,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,428
+Emerson,2.9,Wisconsin,Donald Trump,REP,49.4,845,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,417
+Emerson,2.9,Pennsylvania,Kamala Harris,DEM,48.9,850,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,416
+Emerson,2.9,Pennsylvania,Donald Trump,REP,51.1,850,rv,IVR/Online Panel/Text-to-Web,2024-07-22,2024-07-23,FALSE,NA,-1.1,7,434
+Marist,2.9,National,Kamala Harris,DEM,45,1117,rv,Online Panel,2024-07-22,2024-07-22,FALSE,NA,-0.9,7,503
+Marist,2.9,National,Donald Trump,REP,46,1117,rv,Online Panel,2024-07-22,2024-07-22,FALSE,NA,-0.9,7,514
